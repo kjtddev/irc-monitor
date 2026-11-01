@@ -32,7 +32,7 @@ Create a `docker-compose.yml` file on your host machine:
 version: '3.8'
 services:
   irc-monitor:
-    image: ghcr.io/YOUR_GITHUB_USERNAME/irc-monitor:20261031
+    image: ghcr.io/kjtddev/irc-monitor:latest
     container_name: irc-monitor
     ports:
       - "8080:8080"
