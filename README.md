@@ -35,7 +35,7 @@ services:
     image: ghcr.io/YOUR_GITHUB_USERNAME/irc-monitor:20261031
     container_name: irc-monitor
     ports:
-      - "38080:8080"
+      - "8080:8080"
     restart: unless-stopped
 ```
 
